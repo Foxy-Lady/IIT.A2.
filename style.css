@@ -1,8 +1,4 @@
-html, body {
-  background-color: #435058;
-  background-image: url ("https://github.com/cyborg-seadog/IIT.A2./blob/main/202e7af4-4cd3-4849-affc-cdbcec9c550e.jpg?raw=true");
-  color: #14A3A1;
-}
+
   .topnav {
     background-color: #CAD2C5;
     overflow: hidden;
@@ -30,7 +26,7 @@ html, body {
 
 
 
-  
+
   .navbar {
     background-color: #333;
     overflow: hidden;
@@ -62,9 +58,18 @@ html, body {
   .navbar a.active {
     background-color: #65DEF1;
     color: white;
+
+}
+  .font{
+    font-size:30px;
+    font-style:italic;
+    color: #4b543b;
   }
-
-
+  .fonts{
+    font-size:21px;
+    font-style:italic;
+    color: #4b543b;
+  }
 
 
   .heading {
@@ -81,6 +86,3 @@ html, body {
 
   .navbar {
     font-family: 'Sedgwick Ave', cursive;
-
-    
-    
