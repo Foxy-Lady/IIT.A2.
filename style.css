@@ -1,3 +1,9 @@
+body{
+  background-image: url("https://github.com/Foxy-Lady/IIT.A2./blob/main/202e7af4-4cd3-4849-affc-cdbcec9c550e.jpg?raw=true");
+  background-image: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
 
 .topnav {
     background-color: #CAD2C5;
