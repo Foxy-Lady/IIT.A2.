@@ -95,9 +95,15 @@
   font-size:21px;
   color: #000000;
 }
-.centre {
+.center {
   margin-left: auto;
   margin-right: auto;
+}
+.image_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 td {
   text-align: center;
