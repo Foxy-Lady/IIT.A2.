@@ -89,3 +89,17 @@
 .paragraph {
   font-family: 'Acme', sans-serif;
 }
+.job_titles {
+  font-family: 'Bangers', cursive;
+  text-align: center;
+  font-size:21px;
+  color: #000000;
+}
+.centre {
+  margin-left: auto;
+  margin-right: auto;
+}
+td {
+  text-align: center;
+  vertical-align: middle;
+}
