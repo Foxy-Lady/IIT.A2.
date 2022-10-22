@@ -58,21 +58,27 @@
 
 }
   .font{
+    font-family: 'Bangers', cursive;
     font-size:30px;
-    font-style:italic;
-    color: #4b543b;
+    color: #000000;
   }
   .fonts{
+    font-family: 'Bangers', cursive;
     font-size:21px;
-    font-style:italic;
-    color: #4b543b;
+    color: #000000;
   }
 
 
   .heading {
     font-family: 'Bangers', cursive;
     text-align: center;
+    font-size:27px;
   }
+.index_heading {
+  font-family: 'Bangers', cursive;
+  text-align: center;
+  font-size:36px;
+}
 
   .table {
     font-family: 'Acme', sans-serif;
