@@ -6,7 +6,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> IT Roos </title>
+    <title>Ideal Jobs</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
    	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -101,7 +101,7 @@ img {vertical-align: middle;}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
@@ -110,19 +110,20 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 </style>
+<div class="topnav">
+    <a href="index.html">Index </a>
+    <a href="TeamProfile.html">Team Profile </a>
+    <a href="IdealJobs.html"> Ideal Jobs</a>
+    <a href="IndustryData.html">Industry Data </a>
+    <a href="ITWork.html">IT Work</a>
+    <a href="ITTechnologies.html">IT Technologies </a>
+    <a href="ProjectIdeas.html">Project Ideas </a>
+    <a href="GroupReflection.html">Group Reflection </a>
+ </div>
 </head>
- 
+
 <body>
-    <div class="topnav">
-        <a href="index.html">Index </a>
-        <a href="TeamProfile.html">Team Profile </a>
-        <a href="IdealJobs.html"> Ideal Jobs</a>
-        <a href="IndustryData.html">Industry Data </a>
-        <a href="ITWork.html">IT Work</a>
-        <a href="ITTechnologies.html">IT Technologies </a>
-        <a href="ProjectIdeas.html">Project Ideas </a>
-        <a href="GroupReflection.html">Group Reflection </a>
-     </div>   
+
      <!-- Slideshow container -->
      <div class="slideshow-container">
          <!-- Full-width images with number and caption text -->
@@ -144,9 +145,9 @@ img {vertical-align: middle;}
 <br>
 
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
 </div>
 
 <script>
@@ -165,18 +166,18 @@ function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
 </script>
 
 </body>
-</html> 
+</html>
