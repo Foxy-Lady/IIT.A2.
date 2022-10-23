@@ -12,6 +12,26 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
    <link type="text/css" rel="stylesheet" href="style.css">
+  <style>
+   * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  </style>
+   
+
    <body>
 
      <div class="topnav">
@@ -71,8 +91,8 @@
        All data taken from 1st of March 2017 to 28th of February 2018.</p>
 
      <p>50% of our team members are interested in cybersecurity as an ethical hacker, penetration tester and senior cyber security analyst. The other 50% group IT Roos are interested in Application development as a front-end developer, web app and mobile app development.</p>
-     <p>According to the U.S. Bureau Labor Statics (BLS, 2021)[1], the unemployment rate in Cybersecurity has been 0% since 2016 and predicted 35% growth rate between 2021 and 2031 which is a lot faster than average occupations. Also, the software development industry is growing faster than any other professionals.</p>
-     <p>According to World Economic Forum (2020)[2], the predicted Top 20 jobs increasing demand in future indicates Information Security Analysis followed by Software and Application Developers.</p>
+     <p>According to the U.S. Bureau Labor Statics (BLS, 2021), the unemployment rate in Cybersecurity has been 0% since 2016 and predicted 35% growth rate between 2021 and 2031 which is a lot faster than average occupations. Also, the software development industry is growing faster than any other professionals.   </p>
+     <p>According to World Economic Forum (2020), the predicted Top 20 jobs increasing demand in future indicates Information Security Analysis followed by Software and Application Developers.  Our team ideal jobs are matching very well with the industry demand now and in the future.      </p>
 
 
      <img src="Increase_deamand.jpg"
@@ -94,18 +114,27 @@
 
      <p>As you can see from the above diagrams, both professionals are required to have very similar general skills, such as good communication skills, management skills and problem solving. Also, they are required to have a very broad knowledge of modern technology.</p><br>
 
-    <h1 class="fonts">What are the three highest ranked IT-specific skills which are not in your required skill set?</h1>
+     <h1 class="font">Highest Ranked IT Specific Skills Required</h1>
+     
+     <div class="row">
+        <div class="column">
+          <img src="app_development.png" alt="app development" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="cyber_security.png" alt="cyber security" style="width:100%">
+        </div>
+      </div>
     
-    <h2 class="fonts">Technical Writing Skills </h2>
-    <p>Easily obtained  through certificates, study at a university level or even at TAFE. These writing skills allow for easy communication between teammates/management and sets a high standard too. This means und4rstanding intricate instructions and means the ability  to explain highly technical processes and systems. </p>
-    
-    <h2 class="fonts">Social Media Management  </h2>
-    <p> Many employers look fondly on those who have acquired experience with social media. Communicating a business content to potential clients and onlookers helps business. Creating search engine optimization and web analytics is also a very highly regarded skillset.  </p> 
-    
-    <h2 class="fonts">Coding  </h2>
-    <p>A ‘basic’ skillset to have, but in the IT industry the ability to code is a basic, yet highly sort after skill. Most IT professionals use coding on a daily bases. Most IT jobs require a certain level of web development, software programming and learning several languages is sort after.  </p>
-    
-     <h1 class="font">Highest Ranked Skills Required</h1>
+      <h2 class="fonts">Database Management</h2>
+     <p>Both professions need a knowledge of database management such as SQL, MySQL and NoSQL.</p>
+
+     <h2 class="fonts">Cloud Computing</h2>
+     <p>Azure, AWS and Good cloud computing knowledge is essential.</p>
+
+     <h2 class="fonts">Programming Language</h2>
+     <p>Application Development professions are required more modern programming languages such as HTML5, CSS2, JS, and Front End Framework. Python is versatile and supports front-end, back-end, and cybersecurity. </p>
+
+    <h1 class="font">Highest Ranked General Skills Required</h1>
 
      <h2 class="fonts">Leadership</h2>
      <p>Leadership is a highly sought-after skill that many employers seek. As many organisations and businesses have their employers working in a team, there will need to be someone there to organise, delegate and train employers to create more efficient work.</p>
@@ -115,6 +144,34 @@
 
      <h2 class="fonts">Interpersonal</h2>
      <p>Interpersonal skills are highly desired as creating good relationships with people can create a better work environment and lead to better teamwork. Skills that are desired in this category would be flexibility, motivation and empathy. </p>
+
+
+     <h1 class="font">The Highest ranked skills are not in your required skill</h1>
+    
+
+     <img src="data_science.png"
+     style="width:50%;"
+     class="image_center">
+
+     <img src="comparison.png"
+     style="width:100%;"
+     class="image_center">
+
+     
+    
+    <p>According to the Future of Jobs (2020), Data Analysts and scientist professional is ranked 1 as the highest demand job in the future. Data Analysts and Scientists need SQL, Spreadsheets, Statistical programming languages such as R or Python to analyze big data sets, and Data mining and cleaning (Indeed, 2021). </p>
+
+    <p>As Organization for Economic Co-operation and Development (OECD) AI, ML, and Big Data meeting in France in 2021 stated that the demanding in Artificial Intelligence and Machine Learning are growing in the future. Based on the information OECD (2021) and Indeed (2021), the data analyst professions are required very similar IT-specific skills from IT Roos’s ideal job. However, the data analyst professions need more knowledge in the statistical mathematics and data management such as cleaning and visualization.  </p>
+     
+    <h2 class="fonts">Data Visualisation</h2>
+     <p>For example, Tableau and some libraries in python </p>
+
+     <h2 class="fonts">Data Cleaning</h2>
+     <p> It is a process of amending incorrect data, data type, data format within a dataset. </p>
+
+     <h2 class="fonts">Programming Language</h2>
+     <p>R language and MATLAB </p>
+
 
      <h1 class="font">Have our Ideal Jobs changed?</h1>
 
@@ -135,12 +192,11 @@
 
      <h2 class="reference">Reference List</h2>
      <p>AustCyber (2017) Australia’s Cyber Security Sector Competitiveness Plan 2017, AustCyber website, accessed 7Th October 2022. https://www.austcyber.com/tools-and-resources/sector-competitiveness-plan-2017</p>
+     <p>Indeed Career Guide (2021). 18 Key Skills for Data Analysts. [online] Available at: https://www.indeed.com/career-advice/resumes-cover-letters/skills-for-data-analyst.</p>
+     <p>Indeed Career Guide (2022) Top 11 Skills Employers Look for in Job Candidates. [online] https://www.indeed.com/career-advice/resumes-cover-letters/skills-employers-look-for</p>
      <p>U.S. BUREAU OF LABOR STATISTICS (BLS) (2018). Information Security Analysts : Occupational Outlook Handbook: U.S. Bureau of Labor Statistics, U.S. BUREAU OF LABOR STATISTICS website, accessed 23rd October 2022. https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm.</p>
      <p>World Economic Forum (WEF) (2020). The Future of Jobs Report 2020, World Economic Forum website, accessed 23rd October 2022.</p>
-     <p>Indeed Career Guide (n.d.). 18 Key Skills for Data Analysts. [online] Available at: https://www.indeed.com/career-advice/resumes-cover-letters/skills-for-data-analyst.</p>
-     <p>Indeed Career Guide (2022) Top 11 Skills Employers Look for in Job Candidates accessed 20th October 2022. https://www.indeed.com/career-advice/resumes-cover-letters/skills-employers-look-for</p>
-
-
+     
 </div>
      </body>
     </head>
