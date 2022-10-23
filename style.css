@@ -115,3 +115,28 @@ body{
   background-attachment: fixed;
   background-size: 100% 100%;
 }
+.team_meeting a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  width: 25%;
+  font-size:21px;
+}
+
+.team_meeting a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.team_meeting a:hover {
+  color: #65def1;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.team_meeting a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
